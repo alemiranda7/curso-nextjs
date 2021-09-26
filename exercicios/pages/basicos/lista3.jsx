@@ -1,5 +1,12 @@
 function gerarLista() {
-    const lista = [
+    const lista = []
+    for (let i = 0; i <= 10; i++){
+        lista.push(<span>{i}, </span>) 
+    }
+
+    return lista
+
+    /*const lista = [
         <div>
             <span>0!</span>
             <span>1!</span>
@@ -15,7 +22,7 @@ function gerarLista() {
     ]
 
     return lista
-
+    */
 }
 
 export default function lista() {
