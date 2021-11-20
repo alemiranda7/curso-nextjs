@@ -13,6 +13,6 @@ export default function lista() {
             <div>{gerarLista()}</div>
             <div>{gerarLista(5)}</div>
             <div>{gerarLista(20)}</div>
-        </div>
+        </div> 
     )
 }
